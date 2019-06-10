@@ -30,3 +30,5 @@ mvnw.cmd
 
 ### VS Code ###
 .vscode/
+
+src/main/resources/application.properties
