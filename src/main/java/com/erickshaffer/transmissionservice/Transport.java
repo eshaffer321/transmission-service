@@ -1,5 +1,5 @@
 package com.erickshaffer.transmissionservice;
 
 public interface Transport {
-    void send(String message);
+    boolean send(String message);
 }

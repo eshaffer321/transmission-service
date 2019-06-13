@@ -2,7 +2,7 @@ package com.erickshaffer.transmissionservice;
 
 public class EmailClient implements Transport {
     @Override
-    public void send(String message) {
-
+    public boolean send(String message) {
+        return false;
     }
 }

@@ -18,8 +18,9 @@ public class SMSServiceTest {
     private SMSService smsService;
 
     @Test
-    public void testLog() {
-      this.smsService.send("test message");
+    public void testSend() {
+      boolean result = this.smsService.send("test message");
+      assertTrue(result);
     }
 
 }
